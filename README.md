@@ -1,3 +1,1 @@
-### SWEET CHARACTER GENERATOR
-
-----
+# Sweet and Spicy! Ice Cure ready for battle~!
