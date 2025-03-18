@@ -13,7 +13,7 @@ function Options () {
     ]
 
     function handleSelect(selections: { id: number; name: string}) {
-        alert(`Choose a ${selections.name}!`);
+        alert(`Choose your ${selections.name}!`);
     };
 
     interface Selection {
@@ -29,7 +29,7 @@ function Options () {
             </h2>
             <div>
                 {selections.map((selection) => (
-                    <button key={selection.id} onClick={() => handleSelect(selection)}>
+                    <button className="bg-amber-600/75 hover:bg-amber-900/75 text-white px-4 py-2 m-1 rounded-b-3xl cursor-pointer" key={selection.id} onClick={() => handleSelect(selection)}>
                         {selection.name}
                     </button>
                 )

@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-button {
+/* button {
   padding: 10px 20px;
   border: none;
   background-color: #007BFF;
@@ -8,8 +8,4 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
+} */
