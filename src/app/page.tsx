@@ -1,5 +1,4 @@
 import Preview from "./_components/Preview";
-import Image from "next/image";
 import Options from "./_components/Options";
 
 function App() {
