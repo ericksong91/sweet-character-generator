@@ -5,9 +5,11 @@ import SelectionContainer from "./SelectionContainer";
 
 function Options() {
 
+    type SelectionKey = "Scoop" | "Flavor" | "Eyes" | "Mouth" | "Cone" | "Wrapper" | "Background";
+
     type Selection = {
         id: number;
-        name: string;
+        name: SelectionKey;
     };
 
     const selections: Selection[] = [
@@ -20,7 +22,7 @@ function Options() {
         {id:7, name: 'Background'}
     ];
 
-    const [selected, setSelected] = useState<Selection | null>(null)
+    const [selected, setSelected] = useState<Selection | null>(selections[0])
 
     function handleSelectClick(selection: Selection) {
         setSelected(selection);
