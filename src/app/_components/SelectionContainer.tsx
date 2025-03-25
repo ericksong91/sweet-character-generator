@@ -29,7 +29,7 @@ function SelectionContainer({
     ))
 
     return (
-        <div className="">
+        <div className=" flex flex-wrap justify-center h-100 w-110 rounded border border-amber-500 overflow-auto">
             {displayedOptions}
         </div>
     );
