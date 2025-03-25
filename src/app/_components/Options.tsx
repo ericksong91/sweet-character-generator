@@ -30,7 +30,7 @@ function Options() {
 
     return (
         <>
-            <h2 className="font-extrabold text-4xl text-decoration: underline">
+            <h2 className="font-extrabold text-4xl text-decoration: underline text-center">
                 Options
             </h2>
             <div>
