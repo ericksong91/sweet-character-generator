@@ -35,7 +35,7 @@ function Options() {
             </h2>
             <div>
                 {selections.map((selection) => (
-                    <button className="bg-amber-600/75 hover:bg-amber-900/75 text-white px-4 py-2 m-1 rounded-b-3xl cursor-pointer" key={selection.id} onClick={() => handleSelectClick(selection)}>
+                    <button className="bg-amber-600/75 hover:bg-amber-900/75 focus:bg-amber-900/95 text-white px-4 py-2 m-1 rounded-b-3xl cursor-pointer" key={selection.id} onClick={() => handleSelectClick(selection)}>
                         {selection.name}
                     </button>
                 )
